@@ -38,6 +38,62 @@
 <ul id="reportList"></ul>
 
 <script src="script.js"></script>
+<h1>Building Operations Dashboard</h1>
+
+<div class="card">
+<h3>Open Maintenance Issues</h3>
+<p id="maintenanceCount">0</p>
+</div>
+
+<div class="card">
+<h3>Security Incidents</h3>
+<p id="incidentCount">0</p>
+</div>
+
+<div class="card">
+<h3>Pending Permits</h3>
+<p id="permitCount">0</p>
+</div>
+<form id="maintenanceForm">
+
+<label>Equipment / Area</label>
+<input type="text" id="equipment">
+
+<label>Location</label>
+<input type="text" id="location">
+
+<label>Problem</label>
+<textarea id="problem"></textarea>
+
+<label>Priority</label>
+<select id="priority">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+</select>
+
+<button type="submit">Submit Ticket</button>
+
+</form>
+<label>Upload Photo</label>
+<input type="file" id="photo">
+<label>Incident Type</label>
+<select>
+<option>Security</option>
+<option>Safety</option>
+<option>Medical</option>
+<option>Property Damage</option>
+</select>
+<nav>
+
+<a href="index.html">Dashboard</a>
+<a href="maintenance.html">Maintenance</a>
+<a href="incident.html">Incidents</a>
+<a href="permit.html">Permits</a>
+
+</nav>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </body>
 </html>
+
