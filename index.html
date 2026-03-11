@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Building Monitoring System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Building Monitoring System</h1>
+
+<h2>Create Report</h2>
+
+<form id="reportForm">
+
+<label>Team</label>
+<select id="team">
+<option>Maintenance</option>
+<option>Security</option>
+<option>Housekeeping</option>
+<option>Safety Marshal</option>
+<option>Parking</option>
+</select>
+
+<label>Location</label>
+<input type="text" id="location" required>
+
+<label>Issue</label>
+<input type="text" id="issue" required>
+
+<button type="submit">Submit Report</button>
+
+</form>
+
+<h2>Submitted Reports</h2>
+
+<ul id="reportList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
