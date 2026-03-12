@@ -7,8 +7,9 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open reports.html",
+            "name": "Open index.html",
             "file": "c:\\Users\\Default.LAPTOP-I1O77QRV\\OneDrive\\Building Monitoring System\\reports.html"
         }
     ]
+
 }
