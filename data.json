@@ -1,0 +1,22 @@
+[
+{
+"date":"2026-03-10",
+"department":"Maintenance",
+"concern":"AC leak at Level 5",
+"status":"Open"
+},
+
+{
+"date":"2026-03-11",
+"department":"Security",
+"concern":"CCTV camera not working",
+"status":"Pending"
+},
+
+{
+"date":"2026-03-11",
+"department":"Housekeeping",
+"concern":"Restroom cleaning required",
+"status":"Completed"
+}
+]
