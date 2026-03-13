@@ -11,6 +11,8 @@ margin:0;
 background:#f4f6f9;
 }
 
+/* HEADER */
+
 .header{
 background:#1f3c88;
 color:white;
@@ -19,12 +21,14 @@ text-align:center;
 font-size:28px;
 }
 
+/* REPORTING CARDS */
+
 .container{
 display:flex;
 justify-content:center;
 flex-wrap:wrap;
-margin-top:60px;
-gap:30px;
+margin-top:40px;
+gap:25px;
 }
 
 .card{
@@ -46,6 +50,35 @@ transform:scale(1.05);
 background:#e8f0ff;
 }
 
+/* TABLE SECTION */
+
+.section{
+margin:60px;
+}
+
+h1{
+color:#1f3c88;
+margin-bottom:20px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td{
+padding:12px;
+border:1px solid #ddd;
+text-align:left;
+}
+
+th{
+background:#1f3c88;
+color:white;
+}
+
 </style>
 </head>
 
@@ -54,6 +87,8 @@ background:#e8f0ff;
 <div class="header">
 Building Monitoring and Reporting System
 </div>
+
+<!-- REPORTING DASHBOARD -->
 
 <div class="container">
 
@@ -83,44 +118,9 @@ DCS
 
 </div>
 
-</body>
+<!-- OPEN CONCERNS -->
 
-<html>
-<head>
-<title>Open Concerns</title>
-
-<style>
-body{
-font-family:Arial;
-background:#f4f6f9;
-padding:40px;
-}
-
-h1{
-color:#1f3c88;
-}
-
-table{
-width:100%;
-border-collapse:collapse;
-background:white;
-}
-
-th, td{
-padding:12px;
-border:1px solid #ddd;
-text-align:left;
-}
-
-th{
-background:#1f3c88;
-color:white;
-}
-
-</style>
-</head>
-
-<body>
+<div class="section">
 
 <h1>Open Concerns</h1>
 
@@ -130,9 +130,8 @@ color:white;
 <th>Department</th>
 <th>Concern</th>
 <th>Status</th>
-<th>Level of Urgency</th>
+<th>Urgency</th>
 </tr>
-
 
 <tr>
 <td>March 12</td>
@@ -154,7 +153,7 @@ color:white;
 <td>March 10</td>
 <td>Admin</td>
 <td>Supply of Diesel</td>
-<td>open</td>
+<td>Open</td>
 <td>High</td>
 </tr>
 
@@ -172,18 +171,20 @@ color:white;
 <td>Replacement of Defective CCTV Monitor</td>
 <td>On-going</td>
 <td>High</td>
-</tr> 
+</tr>
 
 </table>
 
-</body>
+</div>
 
+<!-- PENDING ACTIVITIES -->
 
-<body>
+<div class="section">
 
 <h1>Pending Activities</h1>
 
 <table>
+
 <tr>
 <th>Activity</th>
 <th>Department</th>
@@ -192,8 +193,8 @@ color:white;
 </tr>
 
 <tr>
-<td>Debree Hauling</td>
-<td>Housekeeping / Maintenance </td>
+<td>Debris Hauling</td>
+<td>Housekeeping / Maintenance</td>
 <td>March 13, 2026</td>
 <td>On-going</td>
 </tr>
@@ -217,9 +218,11 @@ color:white;
 <td>Maintenance</td>
 <td>March 31, 2026</td>
 <td>On-going</td>
+</tr>
+
 </table>
 
+</div>
+
 </body>
-
-
 </html>
